@@ -1,21 +1,26 @@
 {
- "background": {"scripts": ["background.js"]},
- "browser_action": {
- "default_icon": "icon-128.png",
- "default_title": "bugtags tip toggle"
- },
- "name": "bugtags tip toggle",
- "description": "toggle bugtags bug tips - Created with http://blog.self.li",
- "homepage_url": "http://blog.self.li/post/16366939413/how-to-convert-bookmarklet-to-chrome-extension",
- "icons": {
-     "16": "icon-16.png",
-     "48": "icon-48.png",
-     "128": "icon-128.png" },
- "permissions": [
-     "tabs",
-     "http://*/*",
-     "https://*/*"
- ],
- "version": "0.1",
- "manifest_version": 2
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "icon-128.png",
+    "default_title": "bugtags tip toggle"
+  },
+  "name": "bugtags tip toggle",
+  "description": "toggle bugtags bug tips",
+  "homepage_url": "https://github.com/zhuangya/bugtags-tip-toggle/",
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png",
+    "512": "icon-512.png"
+  },
+  "permissions": [
+    "tabs",
+    "https://work.bugtags.com/*"
+  ],
+  "version": "1.0.0",
+  "manifest_version": 2
 }
