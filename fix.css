@@ -1,0 +1,8 @@
+.col-md-6.col-xs-6.filter-version-item-layout {
+  width: 100%!important;
+}
+
+.case-list .filter .filter-content .filter-version-item>.t-overflow, .issue-list .filter .filter-content .filter-version-item>.t-overflow, .task-list .filter .filter-content .filter-version-item>.t-overflow {
+  width: auto!important;
+  margin-top: 5px;
+}
